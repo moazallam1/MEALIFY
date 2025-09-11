@@ -1,0 +1,78 @@
+@media screen and (max-width: 768px) {
+.nav-content ul {
+    display: none;
+}
+
+.home .home-content {
+display: block;
+}
+.home .home-content .info {
+width: 100%;
+text-align: start;
+
+}
+
+.home .home-content .info .buttons {
+text-align: center;
+
+
+}
+
+
+.home .home-content .image {
+width: 100%;
+padding-left: 0;
+padding: 20px;
+}
+
+/* ----------------------------------------------- */
+.chefs .chefs-content .chefs-items {
+flex-direction: column;
+}
+.chefs .chefs-content .chefs-items .item {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.chefs .chefs-content {
+text-align: start;
+}
+.chefs .chefs-content h2,span {
+    margin-left: 20px;
+}
+
+.chefs .chefs-content .chefs-items .item .item-info h3,span,p {
+margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .nav-content .mode{
+        display: none;
+    }
+
+.gallery .gallery-content .gallery-images {
+columns: 1;
+gap: 10px;
+
+}
+
+
+
+
+
+}
